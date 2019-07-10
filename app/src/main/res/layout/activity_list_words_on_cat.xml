@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/word_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBgColor"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/search_word"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/list_view_lr_margin"
+        android:layout_marginTop="@dimen/list_view_top_margin"
+        android:layout_marginRight="@dimen/list_view_lr_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@color/bgSoftGray"
+        android:drawableRight="@drawable/search_icon"
+        android:hint="@string/search_word"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/textGray"
+        android:textCursorDrawable="@null" />
+
+
+    <ListView
+        android:id="@+id/lwoc_lst_listWordOnCat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/search_not_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_view_lr_margin"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="@dimen/list_view_lr_margin"
+        android:text="@string/search_not_result"
+        android:textColor="@color/textGray" />
+
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_baseline_add_24px"
+        />
+
+</FrameLayout>

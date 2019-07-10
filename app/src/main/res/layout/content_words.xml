@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteBgColor"
+   >
+
+    <EditText
+        android:id="@+id/cw_edt_searchWord"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:layout_marginLeft="@dimen/list_view_lr_margin"
+        android:layout_marginRight="@dimen/list_view_lr_margin"
+        android:layout_marginTop="@dimen/list_view_top_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@color/bgSoftGray"
+        android:drawableRight="@drawable/search_icon"
+        android:hint="@string/search_word"
+        android:padding="8dp"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/textGray" />
+
+
+    <ListView
+        android:id="@+id/cw_lst_listWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_not_found"
+        android:text="@string/search_not_result"
+        android:layout_marginLeft="@dimen/list_view_lr_margin"
+        android:layout_marginRight="@dimen/list_view_lr_margin"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/textGray"/>
+
+</FrameLayout>

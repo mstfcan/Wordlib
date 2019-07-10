@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">WordLib</string>
+    <string name="tab_text_1">Categories</string>
+    <string name="tab_text_2">Words</string>
+    <string name="actions_title">Actions</string>
+    <string name="action_add_category">Add Category</string>
+    <string name="action_add_word">Add Word</string>
+    <string name="search_word">Search</string>
+    <string name="button_update">Update</string>
+    <string name="button_save">Save</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_translate">Translate</string>
+    <string name="text_category">Category:</string>
+    <string name="panel_word_add">Add Word</string>
+    <string name="panel_word_update">Update Word</string>
+    <string name="panel_category_add">Add Category</string>
+    <string name="panel_category_update">Update Category</string>
+    <string name="msg_word_saved">Word saved.</string>
+    <string name="msg_word_updated">Word updated.</string>
+    <string name="msg_word_deleted">Word deleted.</string>
+    <string name="msg_category_saved">Category saved.</string>
+    <string name="msg_category_updated">Category updated.</string>
+    <string name="msg_category_deleted">Category deleted.</string>
+    <string name="msg_same_category">This category has been added before.</string>
+    <string name="msg_empty_category_name">Please enter a category name.</string>
+    <string name="msg_warning">Warning</string>
+    <string name="msg_info">Information</string>
+    <string name="msg_empty_word">Please enter a word.</string>
+    <string name="msg_empty_category">Please select a category.</string>
+    <string name="msg_translate_error">Translate error.</string>
+    <string name="msg_no_selected_category">You have not selected any categories.</string>
+    <string name="msg_no_wifi_connection">Check your internet connection.</string>
+    <string name="button_please_wait">Please Wait...</string>
+    <string name="hint_category_name">Category Name:</string>
+    <string name="hint_category_desc">Description:</string>
+    <string name="problem">There is a problem.</string>
+    <string name="okey">OK</string>
+    <string name="translating">Translating...</string>
+    <string name="translate_it">Translate</string>
+    <string name="question_delete">Are you sure you want to delete it?</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="search_not_result">No results...</string>
+    <string name="speak_word_error">There is a problem with the text to speech.</string>
+
+    <array name="languages">
+        <item>Afrikanca</item>
+        <item>Almanca</item>
+        <item>Amharca</item>
+        <item>Arapça</item>
+        <item>Arnavutça</item>
+        <item>Azerice</item>
+        <item>Baskça</item>
+        <item>Başkurtça</item>
+        <item>Batı Mari dili</item>
+        <item>Belarusça</item>
+        <item>Bengalce</item>
+        <item>Birmanca</item>
+        <item>Boşnakça</item>
+        <item>Bulgarca</item>
+        <item>Cava dili</item>
+        <item>Çekçe</item>
+        <item>Çince</item>
+        <item>Danca</item>
+        <item>Elfçe (Sindarin dili)</item>
+        <item>Emoji</item>
+        <item>Endonezce</item>
+        <item>Ermenice</item>
+        <item>Esperanto</item>
+        <item>Estonca</item>
+        <item>Farsça</item>
+        <item>Felemenkçe</item>
+        <item>Fince</item>
+        <item>Fransızca</item>
+        <item>Gal dili</item>
+        <item>Galiçyaca</item>
+        <item>Gucaratça</item>
+        <item>Gürcüce</item>
+        <item>Haiti dili</item>
+        <item>Hırvatça</item>
+        <item>Hintçe</item>
+        <item>İbranice</item>
+        <item>İngilizce</item>
+        <item>İrlandaca</item>
+        <item>İskoçça (Kelt dili)</item>
+        <item>İspanyolca</item>
+        <item>İsveçce</item>
+        <item>İtalyanca</item>
+        <item>İzlandaca</item>
+        <item>Japonca</item>
+        <item>Kannada dili</item>
+        <item>Katalanca</item>
+        <item>Kazakça</item>
+        <item>Khmerce</item>
+        <item>Kırgızca</item>
+        <item>Korece</item>
+        <item>Laoca</item>
+        <item>Latince</item>
+        <item>Lehçe</item>
+        <item>Letonca</item>
+        <item>Litvanca</item>
+        <item>Lüksemburgca</item>
+        <item>Macarca</item>
+        <item>Makedonca</item>
+        <item>Malayalamca</item>
+        <item>Malayca</item>
+        <item>Malgaşça</item>
+        <item>Maltaca</item>
+        <item>Maorice</item>
+        <item>Marathi</item>
+        <item>Mari dili</item>
+        <item>Moğolca</item>
+        <item>Nepali</item>
+        <item>Norveççe</item>
+        <item>Özbekçe</item>
+        <item>Papiamento</item>
+        <item>Pencapça</item>
+        <item>Portekizce</item>
+        <item>Romence</item>
+        <item>Rusça</item>
+        <item>Sabuanca</item>
+        <item>Seylanca</item>
+        <item>Sırpça</item>
+        <item>Slovakça</item>
+        <item>Slovence</item>
+        <item>Sundaca</item>
+        <item>Svahili</item>
+        <item>Tacikçe</item>
+        <item>Tagalogca</item>
+        <item>Tamilce</item>
+        <item>Tatarca</item>
+        <item>Taylandça</item>
+        <item>Teluguca</item>
+        <item>Türkçe</item>
+        <item>Udmurtça</item>
+        <item>Ukraynaca</item>
+        <item>Urduca</item>
+        <item>Vietnamca</item>
+        <item>Xhosa dili</item>
+        <item>Yidiş</item>
+        <item>Yunanca</item>
+    </array>
+
+    <array name="languages_abb">
+        <item>af</item>
+        <item>de</item>
+        <item>am</item>
+        <item>ar</item>
+        <item>sq</item>
+        <item>az</item>
+        <item>eu</item>
+        <item>ba</item>
+        <item>mrj</item>
+        <item>be</item>
+        <item>bn</item>
+        <item>my</item>
+        <item>bs</item>
+        <item>bg</item>
+        <item>jv</item>
+        <item>cs</item>
+        <item>zh</item>
+        <item>da</item>
+        <item>sjn</item>
+        <item>emj</item>
+        <item>id</item>
+        <item>hy</item>
+        <item>eo</item>
+        <item>et</item>
+        <item>fa</item>
+        <item>nl</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>cy</item>
+        <item>gl</item>
+        <item>gu</item>
+        <item>ka</item>
+        <item>ht</item>
+        <item>hr</item>
+        <item>hi</item>
+        <item>he</item>
+        <item>en</item>
+        <item>ga</item>
+        <item>gd</item>
+        <item>es</item>
+        <item>sv</item>
+        <item>it</item>
+        <item>is</item>
+        <item>ja</item>
+        <item>kn</item>
+        <item>ca</item>
+        <item>kk</item>
+        <item>km</item>
+        <item>ky</item>
+        <item>ko</item>
+        <item>lo</item>
+        <item>la</item>
+        <item>pl</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>lb</item>
+        <item>hu</item>
+        <item>mk</item>
+        <item>ml</item>
+        <item>ms</item>
+        <item>mg</item>
+        <item>mt</item>
+        <item>mi</item>
+        <item>mr</item>
+        <item>mhr</item>
+        <item>mn</item>
+        <item>ne</item>
+        <item>no</item>
+        <item>uz</item>
+        <item>pap</item>
+        <item>pa</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>ceb</item>
+        <item>si</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>su</item>
+        <item>sw</item>
+        <item>tg</item>
+        <item>tl</item>
+        <item>ta</item>
+        <item>tt</item>
+        <item>th</item>
+        <item>te</item>
+        <item>tr</item>
+        <item>udm</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>vi</item>
+        <item>xh</item>
+        <item>yi</item>
+        <item>el</item>
+    </array>
+
+</resources>
